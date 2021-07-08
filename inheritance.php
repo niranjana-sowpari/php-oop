@@ -4,7 +4,7 @@ class class1 {
 	public $y=2;
 	function __construct() {
 		echo "<br>construct1<br>";
-		$this->x=1;
+		$this->x=1;                       // we are defining this variable here
 	}
 
 	function fun(){
@@ -16,6 +16,7 @@ class class2 extends class1 {
 	function __construct() {
 		echo "<br>construct2<br>";
 		//parent::fun();
+		
 		//parent::__construct();
 	}
 
