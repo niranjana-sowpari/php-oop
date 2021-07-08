@@ -9,6 +9,10 @@ class class1 {
 		echo self::$num."static function it is";
 	}
 
+	function fun2(){
+		echo "<br>".++self::$num."<br>";
+	}
+
 }
 
 $ob = new class1();
@@ -16,5 +20,6 @@ $ob = new class1();
 class1::$num++;
 echo "<br>".class1::$num."<br>";
 echo $ob->fun1();
+$ob->fun2();
 
 echo "<br>"."bts";

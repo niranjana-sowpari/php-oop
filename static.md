@@ -15,3 +15,11 @@ members = variables + functions
 ****VERY IMPORTANT
 
 [ MAKES SENSE, SO THAT OBJECTS CAN NOT CHANGE THE VALUE OF THE STATIC VARIABLES  ]
+
+
+- statics cant refer to the $this because we need an object for that 
+- but an object if calls a function can refer to self::$num because class is always available.
+
+- static functions and variables can be used without calling the constructor
+
+-
