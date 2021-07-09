@@ -22,3 +22,11 @@ and if you dont need it then dont use it.
 
 
 BUT HERE WE CAN SEE THAT CLASS3 HAS THE FUN1 ?? HOW ??
+
+
+
+
+USE OF MULTIPLE TRAITS :
+
+trait1::fun1 insteadof trait2;
+trait2::fun1 as fun2;                       //alias
